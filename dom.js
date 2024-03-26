@@ -113,3 +113,6 @@ function successPage() {
   const nextPage3 = document.getElementById("next-page2");
   nextPage3.classList.add("hidden");
 }
+
+function min(nums) { return Math.min(nums) }
+console.log(min( [1,3,2 ]));
